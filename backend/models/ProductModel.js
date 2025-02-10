@@ -9,6 +9,7 @@ const Product = db.define(
     name: DataTypes.STRING,
     book: DataTypes.STRING,
     url: DataTypes.STRING,
+    thumbnail: DataTypes.STRING,
   },
   {
     freezeTableName: true,

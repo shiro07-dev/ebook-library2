@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #bbe2f8;
+}
+#beranda{
+  background-color: #d4ebf8;
+  display: flex;
+  
+}
+.text{
+  margin-top: 2rem;
+}
+#katalog{
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.text-center{
+  margin-bottom: 2rem;
+}
+#tentang{
+  background-color: #d4ebf8;
+
+}
+.footer{
+  background-color: #d4ebf8;
+}
+
+.card, .btn{
+  margin-left: 1rem;
+}
