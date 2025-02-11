@@ -39,7 +39,7 @@ export const saveProduct = async (req, res) => {
   if (!allowedType.includes(ext.toLowerCase())) {
     return res.status(422).json({ msg: 'Invalid File Type' });
   }
-  if (fileSize > 5000000) {
+  if (fileSize > 100000000) {
     return res.status(422).json({ msg: 'File must be less than 5 MB' });
   }
 
